@@ -1,0 +1,108 @@
+body {
+    background-color: #141414;
+    background-image:url('trees.jpg');
+    overflow-x:hidden;
+    /* height:100%; */
+    font-family: 'Lato', Helvetica, arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.45;
+    color: #eee;
+    color: rgba(255,255,255,.85);
+  }
+  #container { 
+      margin: 5%;
+      padding-top: 50px;
+      background-image: linear-gradient(#CFCFCF, transparent);
+
+  }
+  #content {
+      padding:10px;
+      margin: 0 auto;
+  }
+  h1 {
+      height: 250px;
+      font-size: 4.2em;
+      font-weight: 100;
+      text-transform: uppercase;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+  }
+  h3 {
+      font-size: 2.4em;
+      font-weight: 300;
+      line-height: 1.5;
+  }
+
+  .middleDiv {
+      display: flex;
+  }
+
+  #pleft {
+    width:50%;
+    /* float:left; */
+  }
+
+  #pright {
+    width:50%;
+    /* float:left; */
+  }
+
+  .linksDiv {
+    font-size: 45px;
+  }
+
+  i:hover {
+    font-size: 50px;
+  }
+
+  .link {
+    color: rgba(255,255,255,.85);
+  }
+
+  /* p, li {
+      font-size: 1.7em;
+  }
+  a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+  #pleft {
+      max-width:20em;
+      float:left;
+      margin: 1%;
+  }
+  #pright {
+      max-width:20em;
+      float:left;
+  }
+  ul {
+      clear:both;
+  } */
+  
+  
+  /* html { font-size: 62.5%; }
+  body { font-size: 1em;} */
+  
+  .title {
+    width: auto
+  }
+
+  #picture {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+  img {
+    height: 250px;
+  }
+

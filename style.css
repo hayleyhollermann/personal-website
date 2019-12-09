@@ -13,7 +13,7 @@ body {
   #container { 
       margin: 5%;
       padding-top: 50px;
-      background-image: linear-gradient(#CFCFCF, transparent);
+      background-image: linear-gradient(#C8C8C8, transparent);
 
   }
   #content {
@@ -35,6 +35,12 @@ body {
       line-height: 1.5;
   }
 
+  h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    /* line-height: 1.5; */
+  }
+
   .middleDiv {
       display: flex;
   }
@@ -51,14 +57,28 @@ body {
 
   .linksDiv {
     font-size: 45px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  i:hover {
-    font-size: 50px;
+  .logo {
+    height: 45px;
+    width: auto;
+    filter: brightness(100);
   }
 
-  .link {
-    color: rgba(255,255,255,.85);
+  .logo:hover {
+    height: 50px;
+    width: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .linked-in, .github {
+      width: 60px;
+      text-align: center;
   }
 
   /* p, li {

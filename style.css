@@ -61,6 +61,7 @@
     width: auto;
   }
   a {
+    font-weight: bold;
     text-decoration: none;
   }
   .linked-in, .github {
